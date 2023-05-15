@@ -24,7 +24,7 @@ const imageAltText = "Nivy Tower in Bratislava";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "Student at C. S. Lewis Bilingual High School and Microsoft Learn Student Ambassador breaking myths and stereotypes about ♿️.  I am passionate about science and new technology.";
+  "Student at C. S. Lewis Bilingual High School and Microsoft Learn Student Ambassador breaking myths and stereotypes about ♿️.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about science and new technology, accessible Public Transport and Game Development.";
 
 const About = () => {
   return (

@@ -22,7 +22,7 @@ const imageAltText = "Office Bejziks Team";
 
 const Office_Bejziks = () => {
   return (
-    <section className="padding" id="portfolio">
+    <section className="padding" id="office_bejziks">
       <h2 style={{ textAlign: "center" }}>Our Team</h2>
       <div style={{ maxWidth: "40%", alignSelf: "center" }}>
         <img
