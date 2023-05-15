@@ -11,7 +11,6 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
-import Office_Bejziks from "./Components/Office_Bejziks";
 
 import "./styles.css";
 
@@ -46,7 +45,6 @@ const App = () => {
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
       <Portfolio />
-      <Office_Bejziks />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
   );

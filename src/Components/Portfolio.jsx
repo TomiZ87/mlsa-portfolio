@@ -20,7 +20,9 @@ import React from "react";
  * freely use on your site.
  */
 import image from "../images/ms-office-internship.jpg";
+import image1 from "../images/Office_Bejziks.jpg";
 
+const imageAltText1 = "Office Bejziks Team";
 const imageAltText = "An office in Microsoft Slovakia";
 
 /**
@@ -68,8 +70,7 @@ const projectList = [
   },
   {
     title: "The Duke of Edinburgh's International Ward",
-    description:
-      "I completed my Bronze Level DoFE and currently making the Gold Level.",
+    description: "I completed my Bronze Level DoFE and currently making the Gold Level.",
     url: "https://dofe.sk/",
   },
   {
@@ -90,6 +91,12 @@ const Portfolio = () => {
             src={image}
             style={{ height: "90%", width: "100%", objectFit: "cover" }}
             alt={imageAltText}
+          />
+          <h2 style={{ textAlign: "center" }}>Our Team</h2>
+          <img
+            src={image1}
+            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            alt={imageAltText1}
           />
         </div>
         <div className="container">
