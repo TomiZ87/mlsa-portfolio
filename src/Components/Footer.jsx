@@ -50,7 +50,7 @@ const Footer = (props) => {
         gap: "2.5rem",
         padding: "5rem 0 3rem",
         backgroundColor: primaryColor,
-        width: "100vw"
+        width: "100vw",
       }}
     >
       <div
@@ -105,7 +105,7 @@ const Footer = (props) => {
         )}
         {youTube && (
           <a
-            href={`https://www.youtube.com/c/${youTube}`}
+            href={`https://www.youtube.com/channel/${youTube}`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -135,7 +135,6 @@ Footer.propTypes = {
   primaryColor: PropTypes.string,
   twitter: PropTypes.string,
   youTube: PropTypes.string,
-
 };
 
 export default Footer;
