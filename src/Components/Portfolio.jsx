@@ -31,28 +31,52 @@ const imageAltText = "An office in Microsoft Slovakia";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Zajic's Ground Probe Program",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "An initiative to start StarTrek-like program in terms of creation of probes from the most primitive and upgrading them over time.",
+    url: "https://www.youtube.com/watch?v=yme8clizDJw&list=PL1H4UfjEsAh04SFn0d8lm5Dv70KRxgTQ1&pp=iAQB",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Devlogs",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A project of developing ceratin simple or complex games and creating videos around them: Development Vlogs. My first game in Univy was ColorBalls.",
+    url: "https://www.youtube.com/watch?v=q3Qwx1qfj3s&list=PL1H4UfjEsAh092Gr6rFmVv3XrF9SyaQDo&pp=iAQB",
   },
   {
-    title: "My Resume Site",
+    title: "ColorBalls",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "A game or a verion of the game ColorSwitch. Through this game and devlogs I learned the basics of programming on C#. Game is available on Google Play.",
+    url: "https://play.google.com/store/apps/details?id=com.TomiZ87Dev.ColorBalls",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "New School Website",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "As a part of IT Seminar at school I was assigned to create a new school website together with my friend: Simon.",
+    url: "https://bilgym-sk.azurewebsites.net/index.php/",
+  },
+  {
+    title: "Microsoft Office Specialist: Associate",
+    description:
+      "In ŠTC Microsoft I got the opportunity to achieve the MOS: Assiociate certifications.",
+    url: "https://www.credly.com/badges/98e77edc-fd8b-4209-8cef-e67e374e16db/public_url",
+  },
+  {
+    title: "Microsoft Office Specialist: Word Expert",
+    description:
+      "In ŠTC Microsoft I got the opportunity to achieve the MOS: Word Expert as their token of my hard work.",
+    url: "https://www.credly.com/badges/e52f5ecf-8b0a-491e-b408-368b2c7c7811",
+  },
+  {
+    title: "The Duke of Edinburgh's International Ward",
+    description:
+      "I completed my Bronze Level DoFE and currently making the Gold Level.",
+    url: "https://dofe.sk/",
+  },
+  {
+    title: "Team Office Bejziks",
+    description:
+      "Our Team created and translated numerous courses, articles, and other content for Microsoft Learn to teach local students and teachers about digital competencies and Microsoft products.",
+    url: "#office_bejziks",
   },
 ];
 
